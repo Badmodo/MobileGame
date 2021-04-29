@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bdb0af6b6ed1a743ba54090ad382d7b, type: 3}
+  m_Name: Best
+  m_EditorClassIdentifier: 
+  possibleLoot:
+  - weighting: 50
+    loot: {fileID: 11400000, guid: 168fee79043aa3346aad6e50957e7bf7, type: 2}
+  - weighting: 1
+    loot: {fileID: 11400000, guid: c5667d5c418b6ae498dd876c0b739f7d, type: 2}
