@@ -7,7 +7,6 @@ public class YouWin : MonoBehaviour
 {
     public GameObject youWin;
     public GameObject player;
-    public GameObject screneLevel;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,13 +15,14 @@ public class YouWin : MonoBehaviour
 
     public void Restart()
     {
+        Debug.Log("Restart");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Destroy(player);
     }
 
     public void NextLevel()
     {
-        screneLevel.SetActive(false);
+        Debug.Log("NextLevel");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

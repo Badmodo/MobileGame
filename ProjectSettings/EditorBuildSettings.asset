@@ -5,22 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MobileGame/Scene1MobileGameKeyboard.unity
-    guid: f1235b4ba9047744891d972999e7eaf0
-  - enabled: 0
-    path: Assets/Scenes/MobileGame/Scene2MobileGameKeyboard.unity
-    guid: 5d91f28bcee954b45a389c39fc33442f
-  - enabled: 0
-    path: Assets/Scenes/MobileGame/Scene3MobileGameKeyboard.unity
-    guid: b06ff9baa9a9bef4a97509ed41ae231c
   - enabled: 1
-    path: Assets/Scenes/MobileGame/Scene1MobileGameTouchInput.unity
-    guid: 040198717d737784b93b1dbaea638a19
+    path: Assets/Scenes/MobileGame/Scene1MobileGameTouchInputNew.unity
+    guid: fecc57848a9032141bbc6bf9a6b1077e
   - enabled: 1
-    path: Assets/Scenes/MobileGame/Scene2MobileGameTouchInput.unity
+    path: Assets/Scenes/MobileGame/Scene2MobileGameTouchInputNew.unity
     guid: f93c0d04da122984fa3fef92a8d6186a
   - enabled: 1
-    path: Assets/Scenes/MobileGame/Scene3MobileGameTouchInput.unity
-    guid: b2be1fef916dec342a676e10f3523c2f
+    path: Assets/Scenes/MobileGame/Scene3MobileGameTouchInputNew.unity
+    guid: 03dfce3d541f7914ea6ce114f526eaf6
   m_configObjects: {}

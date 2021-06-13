@@ -15,8 +15,7 @@ namespace BreadAndButter.Mobile
         private static MobileInput instance = null;
 
         /// <summary>
-        /// if the system isnt already set up, this will instantiate the mobile input prefab and assign
-        /// the static reference.
+        /// if the system isnt already set up, this will instantiate the mobile input prefab and assign the static reference.
         /// </summary>
         public static void Initialise()
         {
@@ -56,6 +55,7 @@ namespace BreadAndButter.Mobile
             }
         }
 
+        //used for swipe input
         public static SwipeInput.Swipe GetSwipe(int _index)
         {
 
@@ -71,6 +71,7 @@ namespace BreadAndButter.Mobile
             return instance.swipeInput.GetSwipe(_index);
         }
 
+        //used for flick input
         public static void GetFlickData(out float _flickPower, out Vector2 _flickDirection)
         {
             if (!Initialised)
